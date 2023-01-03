@@ -3,6 +3,18 @@
 
 namespace uiuc{
 
+Matrix::Matrix(){
+    rows_ = 3;
+    columns_ = 3;
+}
+
+Matrix::Matrix(int rows, int columns){
+
+    rows_ = rows;
+    columns_ = columns;
+
+}
+
 void Matrix::setSize(int rows, int columns){
 
     rows_ = rows;
@@ -10,6 +22,7 @@ void Matrix::setSize(int rows, int columns){
 }
 
 int Matrix::getRows(){
+
 
     return rows_;
 }

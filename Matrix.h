@@ -14,6 +14,6 @@ namespace uiuc{
             int getRows();
             int getColumns();
             void setSize(int rows, int columns);
-            void setMatrix(int rows, int columns, float mat[][]);
+            //void setMatrix(int rows, int columns, float mat[][]);
     };
 }
